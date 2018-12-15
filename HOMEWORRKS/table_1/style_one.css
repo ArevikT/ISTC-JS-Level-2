@@ -1,25 +1,30 @@
 .table_one{
-    background-image: linear-gradient(rgb(5, 173, 117),rgb(135, 245, 208));
-    width: 1200px;
+    background-image: linear-gradient(to right,rgb(5, 173, 117),rgb(135, 245, 208));
+        width: 75%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 }
 table{
+    background-image: linear-gradient(to right,rgb(5, 173, 117),rgb(135, 245, 208));
     color: white;
-    width: 1200px;
+    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-collapse: collapse;
     
 }
     h1{
+    padding: 30px;
     text-align: center;
     color: rgb(252, 231, 200);
 }
-
-td{
+tr{
     border: 0.1px solid;
     border-color: rgb(123, 243, 203);
+}
+
+td{
+    width: 100px;
     border-collapse: collapse;
     padding: 20px;
 
@@ -30,6 +35,7 @@ th{
     padding: 15px
 }
 h6{
+  padding: 40px;
   text-align: center;
   color:white;
   
