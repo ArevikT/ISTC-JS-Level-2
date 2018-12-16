@@ -1,0 +1,49 @@
+ .main{
+    width: 75%;
+    height: 500px;   
+    
+}
+ .first{
+     width: 26%;
+     height: 450px; 
+     margin: 20px;
+     float: left;  
+     background-color: rgb(234, 234, 234);    
+ }
+     .images_one{
+      width: 80%;
+      height: 100px;
+      margin: 0 0 0 20px;
+      border-style: solid;
+      border-color: white;
+      border-left: 5px solid rgb(196,18,48);
+      border-right: 5px solid rgb(196,18,48);
+     }
+     p{
+         text-align: center;
+     }
+     .images_two{
+        width:100%;
+        height: 250px;
+     }
+ .second{
+    width:65%;
+    height: 450px; 
+    margin: 20px; 
+    float: right;
+    background-color: rgb(234, 234, 234); 
+
+}
+.text{
+  color:rgba(144,141,145);font-size: 10px; 
+}
+.email_address{
+    margin:0 0 0 30px,
+}
+.button{
+    background-color: rgb(172,44,35);
+    color: wheat;
+    width: 100px;
+    height: 25px;
+    font-size: 9px;
+}
