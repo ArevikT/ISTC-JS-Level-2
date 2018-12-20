@@ -6,8 +6,10 @@ html,body,.wrapper{
     margin: 0;
 
  }
-.wrapper>div {
+.wrapper {
+    max-width:1300px ;
     box-sizing: border-box;
+    margin: 0 auto;
     }
 .wrapper > div:nth-child(1){
     width: 100%;
@@ -15,17 +17,19 @@ html,body,.wrapper{
         
  }
 .menu{
-    width: 55%;
+    width: 50%;
     float: right;
+    padding-top: 50px;
 }
-ul, ol{
+ul, li{
     float: left;
+    list-style: none;
 }
-ul ol a{
+ul li a{
     color:black;
     display: block;
     height: 50px;
-    padding-left: 10px;
+    padding-left: 15px;
     text-decoration: none;
     font-weight: bolder;
      
@@ -36,6 +40,7 @@ ul ol a{
     padding-top: 20px;
 }
 i, .meetme{
+    padding-top: 50px;
     color: rgb(0, 195, 255);
     font-size: 30px;
     
@@ -53,12 +58,16 @@ i, .meetme{
     width: 30%;
     height: 3%;
     margin: 0 auto;
-    padding-top: 10%;
+    position: relative;
+    top: 35%;
     box-sizing: border-box;
 }
 h1,h2,h3{
     color:white;
     text-align: center;
+}
+h2{
+    font-family: Comic Sans MS;
 }
 
 button{
