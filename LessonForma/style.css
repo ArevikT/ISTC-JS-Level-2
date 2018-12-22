@@ -1,0 +1,19 @@
+fieldset{
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+legend{
+    text-align: center;
+    
+}
+
+
+input[type="submit"] {
+
+    background-color:lightblue;
+    margin:0 auto;
+    display:block;
+    width: 80%;
+
+  }
