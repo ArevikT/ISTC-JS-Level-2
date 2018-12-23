@@ -1,5 +1,5 @@
 fieldset{
-    width: 10%;
+    width: 15%;
     margin: 0 auto;
     margin-top: 10%;
 }
@@ -7,13 +7,16 @@ legend{
     text-align: center;
     
 }
-
-
 input[type="submit"] {
 
-    background-color:lightblue;
-    margin:0 auto;
+    background-color:#00BFFF;
+    margin-top: 3%;
+    margin-right: 5%;
     display:block;
     width: 80%;
-
+    font-size: 15px;
   }
+  
+input[value="Register"]{
+    color: white;
+}
