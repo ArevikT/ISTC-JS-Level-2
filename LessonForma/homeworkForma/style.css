@@ -1,24 +1,103 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 html,body{
     height: 100%;
     width: 100%;
     background-color: #1A1A1A;
 }
-.wrapper{
+form{
     background-color:#5D5D5D;
-    width: 50%;
+    width: 40%;
     height: 50%;
     margin:0 auto;
     margin-top:10%;
-    border:2px solid #56B1CC;  
+    border:3px solid rgb(43, 134, 155);   
+    box-shadow:inset 0px 0px 20px #56B1CC ;  
+    padding: 1%;
+    border-radius: 2px;
+}
+h3{
+    color: white;
 }
 fieldset,input{
     border:none;
+    padding-left: 10px;
+    margin-top: 10px;
 }
 input{
-    
     background-color: #1A1A1A;
+    border-radius: 2px;
+    width: 48%;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: 2%;
+    }
+input[value="User Name..."]{
+    background-image: url(images/smile.png) ;
+    color: #5D5D5D;
+    padding-left: 22px;
+    }
+.password{
+    background-image: url(images/key.png) ;
+    color: #5D5D5D;
+    padding-left: 22px;
+    }
+input[value="Email Address..."]{
+    background-image: url(images/address.png) ;
+    color: #5D5D5D;
+    padding-left: 22px;
+    }
+input[value="Confirm Email..."]{
+    background-image: url(images/confirmEmail.png) ;
+    color: #5D5D5D;
+    padding-left: 22px;
+    }
+.zipcode{
+    background-image: url(images/zipCode.png) ;
+    color: #5D5D5D;
+    padding-left: 22px; 
+    }
+input[value="Address..."]{
+    background-image: url(images/address.png) ;
+    color: #5D5D5D;
+    padding-left: 22px;
+    }
+input[value="Email Address..."]{
+    background-image: url(images/email.png) ;
+    color: #5D5D5D;
+    padding-left: 22px;
+    } 
+input[value="Phone Number..."]{
+        background-image: url(images/phone.png) ;
+        color: #5D5D5D;
+        padding-left: 22px;
+    }
+input[value="Mobile Number..."]{
+        background-image: url(images/mobile.png) ;
+        color: #5D5D5D;
+        padding-left: 22px;
+    }
+span{
+  color:white; 
 }
-
+input[value="number"]{
+    width: 10%;
+    height: 25px;
+}
+input[value="SIGN-IN NOW"]{
+    float:right;
+    width: 10%;
+    height: 25px;
+    background-color:#6B2D2A;
+    border-radius: 2px;
+    margin:0 auto;
+    
+}
+    
 
 
     
