@@ -1,1 +1,5 @@
-var x = document.getElementsByTagName(DIV)
+
+function myFunction() {
+    var x = document.getElementById("circle");
+    x.style.animationName = "example";
+}
