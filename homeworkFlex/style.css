@@ -8,15 +8,19 @@ html,body{
     width: 100%;
 }
 .wrap{
-    max-width: 1200px;
-    height: 600px;
+    max-width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     margin:auto;
 }
-.flex-menu{
+header{
     width: 100%;
     height: 10%;
+}
+.flex-menu{
+    width: 100%;
+    height: 100%;
     background-color:#333333; 
     display:flex;
     flex-wrap: wrap;
@@ -40,28 +44,24 @@ html,body{
     width: 60%;
 }
 
-ul, li{
-    display: inline-block;
+.menu >ul, li{ 
     display:flex; 
-    flex-wrap: wrap;
+     flex-wrap: wrap;
     list-style: none;
-    justify-content: space-between;
-    padding: 10px;
-}
-ul{
-    width: 100%;
-}
+    margin-left: 2%;
+} 
+ .toggle{
+     color: #BFBFBF;
+     display: none;
+ }
 a{
     color: #AEAEAE;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
-.flex-menu > div:nth-child(3){
-   width: 10%;
-}
 .download1{
     color: #FABFB8;
-    width: 90%;
+    width: 100%;
     background-color: #FA5C50;
     border: none;
     height: 30px;
@@ -72,8 +72,6 @@ a{
     height: 40%;
     background-color: #FA5C50;
     display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
@@ -100,7 +98,6 @@ a{
     color: #FABFB8;
 }
 .download2 {
-    width: 17%;
     padding: 7px;
     border-radius: 4px;
     border: none;
@@ -147,16 +144,19 @@ footer{
     font-size: 12px;
     background: #333333;
     display: flex;
-    align-items: space-around;
+    justify-content:space-around;
+    align-items: center;
 }
 footer > ul{
+    width: 50%;
     display: flex;
     justify-content: space-around;
+    
 }
 
 footer form{
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
 }
 form{
     margin: 10px;
@@ -172,12 +172,35 @@ form>input:nth-child(2){
     width: 90px;
     color: #FABFB8;
 }
-@media only screen and (max-width:782px) {
-    header{
-        flex-direction: column;
+@media only screen and (max-width:710px) {
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;       
     }
+.flex-container-red,.container-white,{
+        height: 20%;
+    } 
+}
+@media only screen and (max-width:450px){
+   .toggle{
+        display: block;
+   }
+  .menu >ul>li{
+      display: none;
+  }
+  .menu >ul{
+      width: 5%;
+  }
+  .container-white{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+
+  
 
 
+}
 
 
 
