@@ -23,11 +23,8 @@ header{
     height: 100%;
     background-color:#333333; 
     display:flex;
-    flex-wrap: wrap;
     list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;    
 }
 .flex-menu > div:nth-child(1){
     margin-left: 10px;
@@ -38,15 +35,15 @@ header{
     line-height: 50px;
     font-size: 40px;
     text-align: center;
-
 }
 .flex-menu > div:nth-child(2){
-    width: 60%;
+    flex-basis: 80%;
 }
-
+.flex-menu > div:nth-child(3){
+    flex-basis:10%;
+}
 .menu >ul, li{ 
     display:flex; 
-     flex-wrap: wrap;
     list-style: none;
     margin-left: 2%;
 } 
@@ -181,25 +178,24 @@ form>input:nth-child(2){
         height: 20%;
     } 
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width:500px){
    .toggle{
+       position: relative;
+       right:40px;
         display: block;
+        float: right;
    }
-  .menu >ul>li{
+  .menu >ul>li, footer > ul{
       display: none;
   }
-  .menu >ul{
-      width: 5%;
+   ul{
+     display: flex;
+     flex-direction: column;
   }
   .container-white{
       display: flex;
       flex-wrap: wrap;
   }
-  
-
-  
-
-
 }
 
 
