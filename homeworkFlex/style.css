@@ -176,23 +176,15 @@ form>input:nth-child(2){
         flex-direction: column;
      }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:505px){
+    .flex-menu{
+     justify-content: space-between;
+    }
    .toggle{
-       position: relative;
-       right:40px;
         display: block;
-        float: right;
    }
-  .menu >ul>li, footer > ul{
+  .menu{
       display: none;
-  }
-   /* ul{
-     display: flex;
-     flex-direction: column;
-  } */
-  .container-white{
-      display: flex;
-      flex-wrap: wrap;
   }
 }
 
