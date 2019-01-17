@@ -1,10 +1,11 @@
 
 var x = document.getElementsByClassName("toggle");
     x.addEventListener("click", myFunction);
+
  function myFunction(){
-    var y = getElementsByClassName("menu");
+    var y = document.getElementById("first");
     if (y.style.display === "none"){
-           y.style.display = "blok";
+           y.style.display = "block";
     } else {
         y.style.display = "none";
 
