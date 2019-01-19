@@ -21,3 +21,6 @@ input[value="Register"]{
     color: white;
     
 }
+button{
+    position: relative;
+}
